@@ -11,21 +11,78 @@
 	<meta name="twitter:site" content="@fe410"/>
 	<meta name="twitter:title" content="Felipe Ramos"/>
 	<meta name="twitter:description" content="User Interface and Creative Designer at Boom Financial Inc."/>
+    
 	<link rel="canonical" href="http://feraio.github.io"/>
 	<link rel="Felipe Ramos" href="https://plus.google.com/+FelipeRamos410"/>
-	<link rel="stylesheet/less" type="text/css" href="style/main.less"/>
+	<link rel="stylesheet/less" type="text/css" href="css/main.less"/>
+    <link rel="stylesheet/less" type="text/css" href="css/animations.min.css"/>
     <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.1/less.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script src="galleria/galleria-1.4.2.min.js"></script>
     <link rel="stylesheet" href="galleria/themes/classic/galleria.classic.css">
 	<script src="galleria/themes/classic/galleria.classic.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.4.js"></script>
+    
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <script type="text/javascript" src="js/jquery.onepage-scroll.js"></script>
+    <script>
+	  $(document).ready(function(){
+      $(".main").onepage_scroll({
+        sectionContainer: "section",
+        responsiveFallback: 600,
+        loop: false
+      });
+		});
+	</script>
 </head>
 <html>
-	<body>
+	<body class="animated fadeIn">
+    <div class="wrapper">
+      <div class="main">
+          
+        <section class="page1">
+	        <div class="container">
+                <div class="homeHeader">
+	            <h1 class="animated fadeInDown">Felipe Ramos</h1>
+                    <h2 class="animated fadeIn">a curious boy that <span class="line"><span class="offset-line">grew up and</span></span> work with Design in Brazil </h2>
+          </div>
+	  	    </div>
+      	</section>
+	    
+		    <section class="page2">
+		      <div class="container">
+	          <h2>ABOUT ME</h2>
+	          <p>After discovering a new career called Design in late 2007, I started to study it and work with print and digital medias in 2008.</p>
+              <p>Over the years I’ve been working  mostly as an User Interface designer helping companies improve products, services and systems to be more attractive and useful for people, increasing their business performance.</p>
+              <p>I’m currently part of a powerful technology team at Boom Financial Inc. as UI and UX Designer.</p>
+		      </div>
+	      </section>
+		    
+		    <section class="page3">
+		      <div class="container">
+	          <h2>INSIDE MY HEAD</h2>
+	          <p>Here is just a piece of my main knowledge and what I’ve been studying over the last years about languages, softwares and web development.</p>
+	  	    </div>
+	      </section>
+
+            <section class="page4">
+		      <div class="container">
+	          <h2>EDUCATION</h2>
+	          <p>I’m always trying to improve my design background and keep myself up to date, here is some of my main education.</p>
+	  	    </div>
+	      </section>
+          
+          <section class="page5">
+		      <div class="container">
+	          <h2>FOLLOW ME</h2>
+	          <p>I’m an internet heavy user and you can always find me online.</p>
+	  	    </div>
+	      </section>
+          
+	    </div>
+	  </div>
+
 <!--
-		<h1>Felipe Ramos</h1>
-		<p>User Interface and Creative Designer at Boom Financial Inc.</p>
--->
 		<div class="galleria">
 			<img src="http://lorempixel.com/1100/400/" />
 			<img src="http://lorempixel.com/600/400/" />
@@ -34,5 +91,6 @@
 		<script>
 		    Galleria.run('.galleria');
 		</script>
+-->
 	</body>
 </html>
