@@ -41,6 +41,31 @@ body {
     overflow: hidden;
 }
 
+.topnav {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin: 12px auto;
+    text-align: center;
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            display: inline;
+            margin: 0 12px;
+            a {
+                text-decoration: none;
+                color: #FFF;
+                opacity: 0.7;
+                font-weight: 300;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
+
 .main {
   float: left;
   width: 100%;
@@ -56,11 +81,11 @@ body {
 //        }
     }
     .page1 {
-        background: url("../images/bg-header.jpg") center no-repeat;
-        background-size: cover;
+//        background: url("../images/bg-header.jpg") center no-repeat;
+//        background-size: cover;
         text-align: center;
         color: #FFF;
-
+        background-color: #5F5752;
         h1 {
           font-size: 72px;
           font-weight: 900;
@@ -86,57 +111,70 @@ body {
             }
         }
     }
+     .page1:before {
+          content: "";
+          position: absolute;
+          background-image: url('../images/bg-header-alt.jpg');
+          background-size: cover;
+         background-position: center;
+          display: block;
+          width: 102%;
+          height: 102%;
+         left: -1%;
+         top: -1%;
+          opacity: 0.4;
+//          z-index: 0;      
+          -webkit-filter: blur(4px);
+          -moz-filter: blur(4px);
+          -o-filter: blur(4px);
+          -ms-filter: blur(4px);
+          filter: blur(4px);
+     }
     .page2 {
-        background-color: #FFF;    
+        background-color: #52443B;    
         text-align: center;
-        color: @primary-color;
-        h2 {
-          font-size: 26px;
-        }
-        p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 30px;
-        }
+        color: #FFF;
     }
+    .page2:before {
+          content: "";
+          position: absolute;
+          background-image: url('../images/bg-saopaulo.jpg');
+          background-size: cover;
+        background-position: center;
+          display: block;
+          width: 100%;
+          height: 100%;
+          opacity: 0.4;
+//          z-index: 0;      
+//          -webkit-filter: blur(4px);
+//          -moz-filter: blur(4px);
+//          -o-filter: blur(4px);
+//          -ms-filter: blur(4px);
+//          filter: blur(4px);
+     }
+    
     .page3 {
         background-color: @primary-color;    
         text-align: center;
         color: #FFF;
-        h2 {
-          font-size: 26px;
-        }
-        p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 30px;
-        }
     }
     .page4 {
                 background-color: #FFF;    
         text-align: center;
         color: @primary-color;
-        h2 {
-          font-size: 26px;
-        }
-        p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 30px;
-        }
     }
     .page5 {
         background-color: @primary-color;    
         text-align: center;
         color: #FFF;
-        h2 {
-          font-size: 26px;
-        }
-        p {
-            font-weight: 300;
-            font-size: 18px;
-            line-height: 30px;
-        }
+    }
+    h2 {
+        font-size: 30px;
+    }
+    p {
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 30px;
     }
 }
 
@@ -195,7 +233,7 @@ body {
   position: absolute;
   width: 4px;
   height: 4px;
-  background: @secondary-color;
+  background: #FFF;
   border-radius: 10px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
@@ -205,7 +243,7 @@ body {
   width: 10px;
   height: 10px;
   background: none;
-  border: 1px solid @secondary-color;
+  border: 1px solid #FFF;
   margin-top: -4px;
   left: 8px;
 }
