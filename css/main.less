@@ -41,30 +41,6 @@ body {
     overflow: hidden;
 }
 
-.topnav {
-    position: fixed;
-    z-index: 1;
-    width: 100%;
-    margin: 12px auto;
-    text-align: center;
-    ul {
-        list-style: none;
-        padding: 0;
-        li {
-            display: inline;
-            margin: 0 12px;
-            a {
-                text-decoration: none;
-                color: #FFF;
-                opacity: 0.7;
-                font-weight: 300;
-                &:hover {
-                    opacity: 1;
-                }
-            }
-        }
-    }
-}
 
 .main {
   float: left;
@@ -72,17 +48,9 @@ body {
   margin: 0 auto;
     section {
         overflow: hidden;
-//        .container {
-////            position: relative;
-//            margin: 0 auto 0;
-//            max-width: 600px !important;
-//            z-index: 3;
-//            top: 10%;
-//        }
+
     }
     .page1 {
-//        background: url("../images/bg-header.jpg") center no-repeat;
-//        background-size: cover;
         text-align: center;
         color: #FFF;
         background-color: #5F5752;
@@ -95,8 +63,7 @@ body {
         }
         h2 {
           font-family: 'Shadows Into Light';
-          font-size: 24px;
-          margin-top: 4px;
+          font-size: 40px;
           letter-spacing: 1px;
             .line {
                 border-bottom: 2px solid #FFF;
@@ -110,11 +77,52 @@ body {
                 top: 17px;
             }
         }
+        p {
+            margin-top: -12px;
+            a {
+                font-weight: 500;
+                text-decoration: none;
+                color:#FFF;
+                &:hover {
+                color:burlywood;
+                }
+            }
+        }
+        .icon-list {
+            margin-top: 36px;
+            .icons {
+                display:inline-block;
+                height:36px;
+                overflow:hidden;
+                text-indent:100%;
+                white-space:nowrap;
+                width:36px;
+                opacity: 0.8;
+                margin: 8px;
+                background-repeat: no-repeat;
+                &:hover {
+                    opacity: 1;
+                }
+            }
+
+        .email {
+            background: url('../images/email.png') no-repeat center;
+        }
+        .twitter {
+            background: url('../images/twitter.png') no-repeat center;
+        }
+        .linkedin {
+            background: url('../images/linkedin.png') no-repeat center;
+        }
+        .blog {
+            background: url('../images/blog.png') no-repeat center;
+        }   
+            }
     }
      .page1:before {
           content: "";
           position: absolute;
-          background-image: url('../images/bg-header-alt.jpg');
+          background-image: url('../images/bg-header.jpg');
           background-size: cover;
          background-position: center;
           display: block;
@@ -122,7 +130,7 @@ body {
           height: 102%;
          left: -1%;
          top: -1%;
-          opacity: 0.4;
+          opacity: 0.2;
 //          z-index: 0;      
           -webkit-filter: blur(4px);
           -moz-filter: blur(4px);
@@ -130,44 +138,6 @@ body {
           -ms-filter: blur(4px);
           filter: blur(4px);
      }
-    .page2 {
-        background-color: #52443B;    
-        text-align: center;
-        color: #FFF;
-    }
-    .page2:before {
-          content: "";
-          position: absolute;
-          background-image: url('../images/bg-saopaulo.jpg');
-          background-size: cover;
-        background-position: center;
-          display: block;
-          width: 100%;
-          height: 100%;
-          opacity: 0.4;
-//          z-index: 0;      
-//          -webkit-filter: blur(4px);
-//          -moz-filter: blur(4px);
-//          -o-filter: blur(4px);
-//          -ms-filter: blur(4px);
-//          filter: blur(4px);
-     }
-    
-    .page3 {
-        background-color: @primary-color;    
-        text-align: center;
-        color: #FFF;
-    }
-    .page4 {
-                background-color: #FFF;    
-        text-align: center;
-        color: @primary-color;
-    }
-    .page5 {
-        background-color: @primary-color;    
-        text-align: center;
-        color: #FFF;
-    }
     h2 {
         font-size: 30px;
     }
@@ -181,13 +151,13 @@ body {
 .verticalMiddle {
             position: absolute;
             margin: auto;        
-            height: 300px;
-            top: 24px;
+            height: 450px;
+            top: 0;
             bottom: 0;
             left: 0;
             right: 0;
-            max-width: 850px;
-            width: 95%;
+            max-width: 700px;
+            width: 85%;
 }
 
 
@@ -216,6 +186,7 @@ body {
   margin: auto;
   padding: 0;
   height: 120px;
+    display: none;
 }
 .onepage-pagination li {
   padding: 0;
