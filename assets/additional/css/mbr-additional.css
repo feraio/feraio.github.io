@@ -1,0 +1,37 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+#header1-4 .btn {
+	font-family: 'Lato', sans-serif !important;
+}
+#header1-4 P {
+	font-family: 'Lato', sans-serif !important;
+	font-size: 18px !important;
+}
+#header1-4 H1 {
+	font-family: 'Lato', sans-serif !important;
+	font-size: 36px !important;
+}
+
+.btn-blog {
+  color: #fff;
+  background-color: #5B94AF;
+  border-color: #5B94AF;
+}
+
+.btn-blog:hover {
+  background-color: #406C82;
+  border-color: #406C82;
+}
+
+a {
+  cursor: pointer !important;
+  text-decoration: none;
+  color: #FFF;
+  font-weight: bold;
+}
+
+a:hover {
+  cursor: pointer !important;
+  text-decoration: underline;
+  color: #FFF;
+}
