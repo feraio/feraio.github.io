@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Error><Code>InvalidObjectState</Code><Message>The operation is not valid for the object's storage class</Message><RequestId>4502E6C3CFE620AE</RequestId><HostId>ywdVTGvGKQYejvIKI50MKqrM6zL5eC1qJKNprzCTJusumNnz9Xo2pQ+ODfmvJxH+/sXbQVRGx+o=</HostId></Error>
