@@ -1,0 +1,410 @@
+{
+  "settings": {
+    "currentPage": "index.html",
+    "version": "2.0"
+  },
+  "pages": {
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "analytics": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#faaf40"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__items a": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "20px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-0",
+          "_params": {
+            "color": "#faaf40",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">FELIPE RAMOS</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#slider-3\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header3-5\">WORK</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#form1-6\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_name": "header1",
+          "_anchor": "header1-1",
+          "_params": {
+            "parallax": false,
+            "bgImageRadio": true,
+            "bgImage": "{PROJECT_IMAGES}-dsc52707360x4912-1782000x1335_163.jpg",
+            "bgColor": "#4c6972",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "contentAlign": "center",
+            "overlay": true,
+            "overlayOpacity": "0.8",
+            "overlayColor": "#454545",
+            "showTitle": true,
+            "showText": true,
+            "showButtons": false,
+            "showArrow": false
+          },
+          "title": "FELIPE RAMOS",
+          "text": "Interface Designer",
+          "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger animated fadeInUp delay\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default animated fadeInUp delay\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>",
+          "_styles": {
+            "H1": {
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "72px !important"
+            },
+            "P": {
+              "font-size": "36px !important",
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_name": "slider",
+          "_params": {
+            "autoplay": false,
+            "slides": [
+              {
+                "active": true,
+                "image": "{PROJECT_IMAGES}_DSC52707360x4912_178.jpg",
+                "showTitle": true,
+                "title": "ABOUT ME",
+                "showText": true,
+                "text": "Sports and nature lover, I use my creativity and happiness to try to be a superhero to my young sisters and my three dogs. <br><br>I am a 22-years-old Designer from Brazil, a beautiful and unique country that hosts multiple cultures and awesome creative minds.&nbsp;I'm always looking for a great opportunity to learn or work with interesting people from different places around the world.<br>",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}bg-saopaulo3008x2000_169.jpg",
+                "showTitle": true,
+                "title": "EDUCATION",
+                "showText": true,
+                "text": "I started study Design at MICROCAMP in Sao Paulo in early 2008, finishing in late 2009 a technical course degree as Web Master, focused on Web Design and Web Development.<br><br>In 2012 I started a Bachelor Degree in Design at Faculdade Paulista de Artes, where I discovered my passion for digital media interfaces, finishing the course in late 2015.<br><br>Over the last years I've also done other courses related to Design, some of the latest was:<br><br><b>Usability Course </b>@ Mergo - iMasters Lab - São Paulo, Brazil<br><b>Human Computer Interaction </b>@ &nbsp;University of California, San Diego - US<br><b>Design Portfolio&nbsp;</b>@ SENAC - São Paulo, Brazil",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}bg-header2560x1600_137.jpg",
+                "showTitle": true,
+                "title": "SKILLS",
+                "showText": true,
+                "text": "Here is a quick list for my main skills that I'm very experienced related to softwares and frameworks that I've been working with over the last years.<br><br><b>Design Principles:</b>&nbsp; Typography, Iconography, Color Theories<br><b>Design Softwares:</b> &nbsp;Photoshop, Illustrator, InDesign, Sketch.<br><b>Web Development: </b>&nbsp;HTML, CSS, Bootstrap, Less, Sass.<br><b>Prototyping:</b>&nbsp; Invision, Axure, Principle.<br><b>Other:</b>&nbsp; Information Architecture, Usability, Github, Final Cut Pro, Sony Vegas.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              },
+              {
+                "active": false,
+                "image": "{PROJECT_IMAGES}Screen%20Shot%202015-10-02%20at%20001280x800_129.png",
+                "showTitle": true,
+                "title": "AND MORE",
+                "showText": true,
+                "text": "As an adventurer, I'm always trying to find great opportunities to know different places and people. I can speak Portuguese, English, Spanish, Italian and counting...<br><br>As an active community member, I started to write about UI and UX in portuguese on my personal <a href=\"http://blog.feliperamos.me\" target=\"_blank\" class=\"text-warning\">blog</a>.<br><br>I am a member of <a href=\"http://www.onyou.com.br/\" target=\"_blank\" class=\"text-warning\">OnYou</a>, one of the leading companies specialized in quality audit in Brazil, associated to MSPA (Mystery Shopping Providers Association), responsible for the evaluation the quality of several types of services and products, also evaluating their process, their employees' politeness and more.<br><br>As a game lover, I started a <a href=\"http://youtube.com/JogaMaisBrasil\" target=\"_blank\" class=\"text-warning\">YouTube channel</a> in portuguese in 2014 that reached more than 75.000 views and I try to send content when I have some free time.",
+                "showButtons": false,
+                "buttons": "<a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-danger\" href=\"http://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"mbr-buttons__btn btn btn-lg btn-default\" href=\"http://mobirise.com\">FOR MAC</a>"
+              }
+            ],
+            "fullScreen": true,
+            "bgColor": "#efefef"
+          },
+          "_anchor": "slider-3",
+          "articleLayout": false,
+          "_styles": {
+            "H1": {
+              "text-align": "left !important",
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "color": "#ffffff !important"
+            },
+            "P": {
+              "text-align": "left !important",
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "20px !important"
+            }
+          }
+        },
+        {
+          "_name": "header3",
+          "_anchor": "header3-5",
+          "title": "WORK",
+          "_params": {
+            "showMeta": true
+          },
+          "meta": "<span style=\"font-style: normal;\">A collection of the main projects that I've worked with.</span>",
+          "_styles": {
+            "H3": {
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "text-align": "center !important",
+              "font-size": "46px !important",
+              "color": "#faaf40 !important"
+            },
+            "P": {
+              "text-align": "center !important",
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            "SPAN": {
+              "font-size": "20px !important",
+              "color": "#cccccc !important"
+            }
+          }
+        },
+        {
+          "_name": "gallery1",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}slide1-small.jpg",
+                "image": "{PROJECT_IMAGES}slide1.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide2-small.jpg",
+                "image": "{PROJECT_IMAGES}slide2.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide3-small.jpg",
+                "image": "{PROJECT_IMAGES}slide3.jpg",
+                "active": true
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide4-small.jpg",
+                "image": "{PROJECT_IMAGES}slide4.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide5-small.jpg",
+                "image": "{PROJECT_IMAGES}slide5.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide6-small.jpg",
+                "image": "{PROJECT_IMAGES}slide6.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide7-small.jpg",
+                "image": "{PROJECT_IMAGES}slide7.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide8-small.jpg",
+                "image": "{PROJECT_IMAGES}slide8.jpg"
+              }
+            ],
+            "bgColor": "#ffffff",
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery1-4",
+          "articleLayout": false
+        },
+        {
+          "_name": "form1",
+          "_anchor": "form1-6",
+          "_params": {
+            "formoidUserID": "fe10.santosramos@gmail.com",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#fafafa",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222",
+            "showTitle": true,
+            "showName": true,
+            "showEmail": true,
+            "showPhone": false
+          },
+          "title": "CONTACT",
+          "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"mbr-buttons__btn btn btn-lg btn-warning\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\">SEND<br></a>",
+          "_styles": {
+            ".mbr-header__text": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "46px",
+              "color": "#faaf40"
+            },
+            ".btn": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            }
+          }
+        },
+        {
+          "_name": "footer1",
+          "_anchor": "footer1-25",
+          "_params": {
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#555555",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "FELIPE RAMOS @ 2015<br><a href=\"http://twitter.com/fe410\" target=\"_blank\" class=\"text-warning\" style=\"line-height: 1.5em; background-color: rgb(85, 85, 85);\">Twitter</a><span style=\"line-height: 1.5em;\">&nbsp;&nbsp;</span><a href=\"https://www.linkedin.com/in/feraio\" target=\"_blank\" class=\"text-warning\" style=\"line-height: 1.5em; background-color: rgb(85, 85, 85);\">Linkedin</a><span style=\"line-height: 1.5em;\">&nbsp;&nbsp;</span><a href=\"https://github.com/feraio/\" target=\"_blank\" class=\"text-warning\" style=\"line-height: 1.5em; background-color: rgb(85, 85, 85);\">Github</a><span style=\"line-height: 1.5em;\">&nbsp; </span><a href=\"http://blog.feliperamos.me\" target=\"_blank\" class=\"text-warning\" style=\"line-height: 1.5em; background-color: rgb(85, 85, 85);\">Blog</a><br>",
+          "_styles": {
+            "P": {
+              "text-align": "center !important",
+              "font-family": "'Lato', sans-serif !important",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "14px !important"
+            }
+          }
+        }
+      ]
+    },
+    "work-template.html": {
+      "settings": {
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "analytics": ""
+      },
+      "components": [
+        {
+          "_styles": {
+            ".mbr-brand__name": {
+              "font-size": "16px"
+            },
+            "&.mbr-navbar--stuck .mbr-navbar__section": {
+              "background": "#faaf40"
+            },
+            ".mbr-navbar__section": {},
+            ".mbr-navbar__items a": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700"
+            },
+            ".mbr-brand__name a": {
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "20px"
+            }
+          },
+          "_name": "menu",
+          "_anchor": "menu-7",
+          "_params": {
+            "color": "#faaf40",
+            "transparent": true,
+            "sticky": true,
+            "collapsed": false,
+            "logo": false,
+            "showBrand": true,
+            "showButtons": false
+          },
+          "logo": "{PROJECT_IMAGES}logo.png",
+          "brand": "<a class=\"mbr-brand__name text-white\" data-app-btn=\"true\" href=\"http://mobirise.com\" data-app-selector=\".mbr-brand__name a\" data-app-placeholder=\"Type Brand Name\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove,mbrColor\">FELIPE RAMOS</a>",
+          "items": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"#top\">HOME</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#slider-3\">ABOUT</a></li> <li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#header3-5\">WORK</a></li><li class=\"mbr-navbar__item\"><a data-app-btn=\"true\" class=\"mbr-buttons__link btn mbr-menu-item text-white\" data-app-selector=\".mbr-navbar__items a\" href=\"index.html#form1-6\">CONTACT</a></li>",
+          "buttons": "<li class=\"mbr-navbar__item\"><a data-app-btn=\"parent\" class=\"mbr-buttons__btn btn btn-default\" data-app-selector=\".mbr-navbar__items a\" href=\"http://mobirise.com\">DOWNLOAD</a></li>"
+        },
+        {
+          "_styles": {
+            ".caption h3": {
+              "color": "#fff",
+              "font-family": "'Lato', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Lato:400,300,700",
+              "font-size": "46px",
+              "text-align": "left"
+            },
+            "P": {
+              "color": "#fff"
+            }
+          },
+          "_name": "content5",
+          "_anchor": "content5-16",
+          "_params": {
+            "bgImageRadio": true,
+            "parallax": true,
+            "bgImage": "{PROJECT_IMAGES}bg3.jpg",
+            "bgColor": "#fff",
+            "bgColorRadio": false,
+            "bgVideo": {
+              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": true,
+            "overlayOpacity": 0.6,
+            "overlayColor": "#28324e",
+            "showTitle": true,
+            "showCaption": true
+          },
+          "title": "EASY TO USE!",
+          "caption": "<p>Make your own website in a few clicks! Mobirise helps you cut down development time by providing you with a flexible website editor with a drag and drop interface. MobiRise Website Builder creates responsive, retina and mobile friendly websites in a few clicks. Mobirise is one of the easiest website development tools available today. It also gives you the freedom to develop as many websites as you like given the fact that it is a desktop app.</p>"
+        },
+        {
+          "_inherit": "gallery1",
+          "_name": "gallery2",
+          "_params": {
+            "images": [
+              {
+                "thumb": "{PROJECT_IMAGES}slide1-small.jpg",
+                "image": "{PROJECT_IMAGES}slide1.jpg",
+                "active": false
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide2-small.jpg",
+                "image": "{PROJECT_IMAGES}slide2.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide3-small.jpg",
+                "image": "{PROJECT_IMAGES}slide3.jpg",
+                "active": true
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide5-small.jpg",
+                "image": "{PROJECT_IMAGES}slide5.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide6-small.jpg",
+                "image": "{PROJECT_IMAGES}slide6.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide7-small.jpg",
+                "image": "{PROJECT_IMAGES}slide7.jpg"
+              },
+              {
+                "thumb": "{PROJECT_IMAGES}slide8-small.jpg",
+                "image": "{PROJECT_IMAGES}slide8.jpg"
+              }
+            ],
+            "fullWidth": false,
+            "noGutter": true
+          },
+          "_anchor": "gallery2-15",
+          "articleLayout": true
+        }
+      ]
+    }
+  }
+}
