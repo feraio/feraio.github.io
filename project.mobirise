@@ -55,11 +55,11 @@
           "_params": {
             "parallax": false,
             "bgImageRadio": true,
-            "bgImage": "{PROJECT_IMAGES}-dsc52707360x4912-1782000x1335_163.jpg",
+            "bgImage": "{PROJECT_IMAGES}bg-header.jpg",
             "bgColor": "#4c6972",
             "bgColorRadio": false,
             "bgVideo": {
-              "url": "http://www.youtube.com/watch?v=uNCr7NdOJgw"
+              "url": ""
             },
             "bgVideoRadio": false,
             "contentAlign": "center",
