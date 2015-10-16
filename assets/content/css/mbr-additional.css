@@ -1,20 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
-
-
-
-
-
-
-
-
-
-
+@import url(https://fonts.googleapis.com/css?family=Lato:900,700,400,300,100);
 
 #menu-0 .mbr-brand__name {
 	font-size: 16px;
 }
 #menu-0.mbr-navbar--stuck .mbr-navbar__section {
-	background: #faaf40;
+	/*background: #faaf40;*/
+	background-color: #444;
 }
 #menu-0 .mbr-navbar__section {
 }
@@ -25,35 +16,41 @@
 	font-family: 'Lato', sans-serif;
 	font-size: 20px;
 }
-#header1-1 H1 {
+#header1-1 h1 {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 72px !important;
 }
-#header1-1 P {
+#header1-1 p {
 	font-size: 36px !important;
 	font-family: 'Lato', sans-serif !important;
 }
-#slider-3 H1 {
-	text-align: left !important;
+#header2-10 H1 {
+	text-align: center !important;
 	font-family: 'Lato', sans-serif !important;
-	color: #ffffff !important;
+	color: #faaf40 !important;
+	font-weight: 700;
 }
-#slider-3 P {
-	text-align: left !important;
+#header2-10 P {
+	text-align: center !important;
 	font-family: 'Lato', sans-serif !important;
-	font-size: 20px !important;
+	font-size: 18px !important;
+	color: #555;
 }
-#header3-5 H3 {
+#header2-10 .btn {
+	font-family: 'Lato', sans-serif;
+}
+#header3-5 h3 {
 	font-family: 'Lato', sans-serif !important;
 	text-align: center !important;
 	font-size: 46px !important;
 	color: #faaf40 !important;
+	padding-bottom: 12px !important;
 }
-#header3-5 P {
+#header3-5 p {
 	text-align: center !important;
 	font-family: 'Lato', sans-serif !important;
 }
-#header3-5 SPAN {
+#header3-5 span {
 	font-size: 20px !important;
 	color: #cccccc !important;
 }
@@ -65,13 +62,29 @@
 #form1-6 .btn {
 	font-family: 'Lato', sans-serif;
 }
-#footer1-25 P {
-	text-align: center !important;
+#footer1-25 {
+	background-color: #555;
+}
+
+#footer1-25 p {
 	font-family: 'Lato', sans-serif !important;
 	font-size: 14px !important;
 }
 
+#footer1-25 .left-side {
+	text-align: left !important;
+}
 
+#footer1-25 .right-side {
+	text-align: right !important;
+}
+
+@media (max-width: 767px) {
+	#footer1-25 .right-side, #footer1-25 .left-side {
+		text-align: center !important;
+	}
+}
+	
 
 #menu-7 .mbr-brand__name {
 	font-size: 16px;
@@ -94,6 +107,6 @@
 	font-size: 46px;
 	text-align: left;
 }
-#content5-16 P {
+#content5-16 p {
 	color: #fff;
 }

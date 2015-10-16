@@ -449,7 +449,7 @@
         var e = document.createElement("section");
         e.id = "top-1";
         e.className = "engine";
-        e.innerHTML = '<a href="http://mobirise.com">mobirise.com</a> Mobirise v2.0';
+        e.innerHTML = '<a href="http://feliperamos.me">FELIPE RAMOS</a> FELIPE RAMOS';
         document.body.insertBefore(e, document.body.childNodes[0]);
     }
 }();

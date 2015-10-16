@@ -1525,10 +1525,13 @@ html {
   z-index: 3;
 }
 .mbr-section__container--std-padding {
-  padding: 93px 0;
+  padding: 84px 0;
 }
 .mbr-section__container--sm-padding {
-  padding: 41px 0;
+  padding: 42px 0;
+}
+.mbr-section__container--custom-padding {
+  padding: 84px 0 42px 0;
 }
 .mbr-section__container--isolated {
   padding-bottom: 93px;
@@ -1705,22 +1708,23 @@ html {
 }
 .mbr-hero__text {
   font-size: 46px;
-  font-weight: bold;
-  left: -2px;
-  letter-spacing: 2px;
-  line-height: 50px;
-  margin: -18px 0 1px 0;
-  padding-bottom: 41px;
+  font-weight: 900;
+  /*left: -2px;*/
+  letter-spacing: 0;
+  line-height: 84px;
+  margin: 0;
+  padding-bottom: 42px;
   position: relative;
-  top: 8px;
+  /*top: 8px;*/
 }
 .mbr-hero__subtext {
-  font-size: 21px;
-  line-height: 29px;
+  font-size: 18px;
+  line-height: 26px;
   margin: -32px 0 3px 0;
   padding: 0 0 41px 0;
   position: relative;
   top: 6px;
+  font-weight: 300;
 }
 .mbr-figure {
   background: #252525;
@@ -1773,7 +1777,7 @@ html {
 .mbr-figure--wysiwyg .mbr-figure__caption a,
 .mbr-figure--wysiwyg .mbr-figure__caption a:hover {
   color: inherit;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .mbr-figure--caption-inside-top .mbr-figure__caption {
   bottom: auto;
@@ -1941,7 +1945,7 @@ html {
   }
 }
 .mbr-header {
-  margin-top: -20px;
+  margin-top: 24px;
   padding: 0;
   position: relative;
   text-align: left;
