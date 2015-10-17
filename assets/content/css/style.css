@@ -2,6 +2,14 @@ html {
   position: relative;
   min-height: 100%;
 }
+a {
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+a:focus {
+  outline: none;
+}
 .mbr-transparent {
   opacity: 0;
   filter: alpha(opacity=0);
@@ -1036,6 +1044,9 @@ html {
     top: 26px;
   }
 }
+
+/* NAVBAR */
+
 .mbr-navbar {
   position: relative;
   width: 100%;
@@ -1046,82 +1057,82 @@ html {
 }
 .mbr-navbar__brand-link:after,
 .mbr-navbar__brand-img {
-  height: 74px;
+  height: 44px;
 }
 .mbr-navbar:before,
 .mbr-navbar__container {
-  height: 98px;
+  height: 44px;
 }
 .mbr-navbar--ss .mbr-navbar__brand-link:after,
 .mbr-navbar--ss .mbr-navbar__brand-img {
-  height: 74px;
+  height: 44px;
 }
 .mbr-navbar--ss:before,
 .mbr-navbar--ss .mbr-navbar__container {
-  height: 98px;
+  height: 44px;
 }
 .mbr-navbar--xs .mbr-navbar__brand-link:after,
 .mbr-navbar--xs .mbr-navbar__brand-img {
-  height: 32px;
+  height: 44px;
 }
 .mbr-navbar--xs:before,
 .mbr-navbar--xs .mbr-navbar__container {
-  height: 56px;
+  height: 44px;
 }
 .mbr-navbar--s .mbr-navbar__brand-link:after,
 .mbr-navbar--s .mbr-navbar__brand-img {
-  height: 48px;
+  height: 44px;
 }
 .mbr-navbar--s:before,
 .mbr-navbar--s .mbr-navbar__container {
-  height: 72px;
+  height: 44px;
 }
 .mbr-navbar--m .mbr-navbar__brand-link:after,
 .mbr-navbar--m .mbr-navbar__brand-img {
-  height: 64px;
+  height: 44px;
 }
 .mbr-navbar--m:before,
 .mbr-navbar--m .mbr-navbar__container {
-  height: 88px;
+  height: 44px;
 }
 .mbr-navbar--l .mbr-navbar__brand-link:after,
 .mbr-navbar--l .mbr-navbar__brand-img {
-  height: 96px;
+  height: 44px;
 }
 .mbr-navbar--l:before,
 .mbr-navbar--l .mbr-navbar__container {
-  height: 120px;
+  height: 44px;
 }
 .mbr-navbar--xl .mbr-navbar__brand-link:after,
 .mbr-navbar--xl .mbr-navbar__brand-img {
-  height: 128px;
+  height: 44px;
 }
 .mbr-navbar--xl:before,
 .mbr-navbar--xl .mbr-navbar__container {
-  height: 152px;
+  height: 44px;
 }
 .mbr-navbar--short .mbr-navbar__brand-link:after,
 .mbr-navbar--short .mbr-navbar__brand-img {
-  height: 40px;
+  height: 44px;
 }
 .mbr-navbar--short:before,
 .mbr-navbar--short .mbr-navbar__container {
-  height: 64px;
+  height: 44px;
 }
 .mbr-navbar--short .mbr-navbar__container {
-  padding: 12px 0;
+  /*padding: 12px 0;*/
 }
 @media (max-width: 767px) {
   .mbr-navbar--short .mbr-navbar__brand-link:after,
   .mbr-navbar--short .mbr-navbar__brand-img {
-    height: 31px;
+    height: 44px;
   }
   .mbr-navbar--short:before,
   .mbr-navbar--short .mbr-navbar__container {
-    height: 45px;
+    height: 44px;
   }
   .mbr-navbar--short .mbr-navbar__container {
-    padding: 7px 0;
+    /*padding: 7px 0;*/
   }
 }
 .mbr-navbar__brand-img {
@@ -1135,7 +1146,7 @@ html {
   transition: all 300ms ease-in-out 0s;
 }
 .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #444;
   height: auto;
   position: absolute;
   top: 0;
@@ -1253,10 +1264,17 @@ html {
   background: none;
   position: fixed;
 }
+.mbr-navbar--collapsed.mbr-navbar--open:not(.mbr-navbar--custom) .mbr-navbar__section {
+  background: none;
+  position: fixed;
+}
 .mbr-navbar--collapsed.mbr-navbar--open .mbr-navbar__brand {
   visibility: hidden;
 }
 .mbr-navbar--collapsed.mbr-navbar--sticky.mbr-navbar--open .mbr-navbar__brand {
+  visibility: visible;
+}
+.mbr-navbar--collapsed.mbr-navbar--custom.mbr-navbar--open .mbr-navbar__brand {
   visibility: visible;
 }
 .mbr-navbar--collapsed.mbr-navbar--open .mbr-navbar__brand-img,
@@ -1272,6 +1290,9 @@ html {
 .mbr-navbar--sticky .mbr-navbar__section {
   position: fixed;
 }
+.mbr-navbar--custom .mbr-navbar__section {
+  position: fixed;
+}
 .mbr-navbar--absolute {
   position: absolute;
 }
@@ -1280,7 +1301,7 @@ html {
 }
 .mbr-navbar--stuck .mbr-navbar__section,
 .mbr-navbar--relative .mbr-navbar__section {
-  background: #2c2c2c;
+  background: #444;
 }
 @media (max-width: 991px) {
   .mbr-navbar--auto-collapse .mbr-navbar__container {
@@ -1323,10 +1344,17 @@ html {
     background: none;
     position: fixed;
   }
+  .mbr-navbar--auto-collapse.mbr-navbar--open:not(.mbr-navbar--custom) .mbr-navbar__section {
+    background: none;
+    position: fixed;
+  }
   .mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__brand {
     visibility: hidden;
   }
   .mbr-navbar--auto-collapse.mbr-navbar--sticky.mbr-navbar--open .mbr-navbar__brand {
+    visibility: visible;
+  }
+  .mbr-navbar--auto-collapse.mbr-navbar--custom.mbr-navbar--open .mbr-navbar__brand {
     visibility: visible;
   }
   .mbr-navbar--auto-collapse.mbr-navbar--open .mbr-navbar__brand-img,
@@ -1713,14 +1741,16 @@ html {
   letter-spacing: 0;
   line-height: 84px;
   margin: 0;
-  padding-bottom: 42px;
+  /*padding-bottom: 42px;*/
   position: relative;
+  color: #faaf40 !important;
   /*top: 8px;*/
+  display: block;
 }
 .mbr-hero__subtext {
   font-size: 18px;
-  line-height: 26px;
-  margin: -32px 0 3px 0;
+/*  line-height: 26px;*/
+  /*margin: -32px 0 3px 0;*/
   padding: 0 0 41px 0;
   position: relative;
   top: 6px;
@@ -1958,12 +1988,15 @@ html {
   text-align: center;
 }
 .mbr-header__text {
-  display: block;
-  font-size: 25px;
-  font-weight: bold;
-  letter-spacing: 6px;
-  line-height: 1.5em;
+  /*display: block;*/
+  font-size: 46px;
+  font-weight: 900;
+  /*left: -2px;*/
+  letter-spacing: 0;
+  line-height: 84px;
   margin: 0;
+  position: relative;
+  /*top: 8px;*/
 }
 .mbr-header__subtext {
   color: #777;
@@ -2056,8 +2089,8 @@ html {
   color: #9c9c9c;
   font-size: 13px;
   letter-spacing: 1px;
-  line-height: 1.5em;
-  padding: 37px 0 39px;
+  line-height: 1em;
+  padding: 24px 0 24px;
   word-spacing: 1px;
 }
 .mbr-footer__copyright {
@@ -2261,10 +2294,4 @@ html {
 }
 .social-likes_style-2 .social-likes__icon:hover .social-likes__counter {
   background: #3c3c3c;
-}
-.engine {
-	position: absolute;
-	text-indent: -2400px;
-	text-align: center;
-	padding: 0;
 }
