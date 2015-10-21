@@ -6300,6 +6300,7 @@ a.list-group-item-danger.active:focus {
   cursor: pointer;
   opacity: 0.5;
   filter: alpha(opacity=50);
+  outline: none;
 }
 button.close {
   padding: 0;
@@ -6385,13 +6386,24 @@ button.close {
   margin-top: -2px;
 }
 .modal-title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 700;
   margin: 0;
   line-height: 1.42857143;
 }
 .modal-body {
   position: relative;
   padding: 15px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: 300;
 }
+
+.modal-body p {
+  margin-bottom: 16px;
+}
+
 .modal-footer {
   padding: 15px;
   text-align: right;

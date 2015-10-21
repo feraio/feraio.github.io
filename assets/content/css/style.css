@@ -1533,7 +1533,7 @@ a:focus {
   height: 100vh;
 }
 .mbr-section--bg-adapted {
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: 50% 0;
   background-repeat: no-repeat;
   background-size: cover;
