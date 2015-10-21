@@ -75,6 +75,11 @@
 	font-size: 46px;
 	color: #faaf40;
 }
+
+.contact-form {
+	margin-top: -48px;
+}
+
 #contact .btn {
 	font-family: 'Lato', sans-serif;
 }
