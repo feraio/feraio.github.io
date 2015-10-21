@@ -110,14 +110,14 @@
         <div class="mbr-section__container mbr-section__container--std-padding container">
             <div class="row">
                 <div class="col-sm-12">
-                    <div class="row">
+                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2" data-form-type="formoid">
                             <div class="mbr-header mbr-header--center mbr-header--std-padding">
                                 <h2 class="mbr-header__text">CONTACT</h2>
-                                <p class="mbr-hero__subtext">Feel free to tell me about your project or send me an email to <a class="text-warning" href="mailto:felipe@feliperamos.me">felipe@feliperamos.me</a>.</p>
+                                <p class="mbr-hero__subtext">Feel free to tell me about your project or send an email to <a class="text-warning" href="mailto:felipe@feliperamos.me">felipe@feliperamos.me</a>.</p>
                             </div>
                             <div data-form-alert="true"></div>
-                            <form method="post" data-form-title="CONTACT">
+                            <form class="contact-form" method="post" data-form-title="CONTACT">
                                 <input type="hidden" value="fjQbvok2w1uCFvKKuua4ocORhigNTe/jVHMCXebkz93nqle2trn7dP2M3zxyudUN/AL1yklqnhJ7ge+Y9144kq2BFyDByy9RoHrcrR6wMGYLywMMBQ7v0Nw/05mFJrwP" data-form-email="true">
                                 <div class="form-group">
                                     <input type="text" class="form-control" name="name" placeholder="Name" data-form-field="Name" required>
@@ -160,7 +160,19 @@
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/smooth-scroll/SmoothScroll.js"></script>
     <script src="assets/content/js/script.js"></script>
-    <script src="assets/formoid/formoid.min.js"></script>  
+    <script src="assets/formoid/formoid.min.js"></script>
+    <!-- Testing Hotjar Tracking Service -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:91253,hjsv:5};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'//static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
                 
     <!-- Modal -->
     <div class="modal fade" id="workModal" tabindex="1" role="dialog" aria-labelledby="workModalLabel">
@@ -171,7 +183,7 @@
             <h4 class="modal-title" id="workModalLabel">Oops! This section is not available yet!</h4>
           </div>
           <div class="modal-body">
-            <p>Although this section is not quite done yet, you can find out more about my work following the button below.</p>
+            <p>Although this section is not quite done yet, you can find out more about my work following the button below or going to my <a href="http://linkedin.com/in/feraio" class="text-warning">Linkedin</a> profile.</p>
             <div class="mbr-buttons mbr-buttons--center">
             <a href="https://goo.gl/jntQGc" class="mbr-buttons__btn btn btn-lg btn-warning">PROJECTS SUMMARY
             </a></div>
