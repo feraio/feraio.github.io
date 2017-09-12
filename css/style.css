@@ -3931,13 +3931,13 @@ label {
 /* Footer
 /*-------------------------------------------------------*/
 .footer.minimal {
-  padding: 120px 0;
+  padding: 12px 0;
   text-align: center;
 }
 
 .footer.minimal .copyright {
   display: block;
-  margin-top: 70px;
+  /*margin-top: 70px;*/
   font-size: 10px;
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
