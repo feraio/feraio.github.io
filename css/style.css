@@ -3758,7 +3758,7 @@ textarea {
   height: 47px;
   line-height: 47px;
   border: 2px solid #e3e3e3;
-  background-color: transparent;
+  /*background-color: transparent;*/
   width: 100%;
   margin-bottom: 16px;
   padding: 0 16px;
