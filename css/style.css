@@ -4130,4 +4130,12 @@ p.footer-address {
   color: #111;
 }
 
+.text-center {
+  text-align: center;
+}
+
+.pb-0 {
+  padding-top: 0 !important;
+}
+
 /*# sourceMappingURL=style.css.map */
