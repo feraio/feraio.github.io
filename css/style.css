@@ -4138,4 +4138,11 @@ p.footer-address {
   padding-top: 0 !important;
 }
 
+h1.std-shadow {
+  text-shadow: 4px 4px #212121
+}
+
+h2.std-shadow {
+  text-shadow: 2px 2px #212121
+}
 /*# sourceMappingURL=style.css.map */
