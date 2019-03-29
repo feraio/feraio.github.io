@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/feraio
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://feliperamos.me
+  * I am feraio (https://keybase.io/feraio) on keybase.
+  * I have a public key ASBESm-2V-yfflsQTn-cx0w_sX9rgtFhq_Ttn_4o6Jz8YAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120444a6fb657ec9f7e5b104e7f9cc74c3fb17f6b82d161abf4ed9ffe28e89cfc600a",
+      "host": "keybase.io",
+      "kid": "0120444a6fb657ec9f7e5b104e7f9cc74c3fb17f6b82d161abf4ed9ffe28e89cfc600a",
+      "uid": "c0c6f74998f36bddfb2170c2cba22119",
+      "username": "feraio"
+    },
+    "merkle_root": {
+      "ctime": 1553884301,
+      "hash": "ff88652521c2d5b1ab18f5def34d516fc31fc98d2f0cb8b42b6928cc8d4f8d3e4b79a1aa21f905cccf291d10a2793d58b2c18f2f7612cd7329cf7c1360aa48ea",
+      "hash_meta": "a07be2160009be85a3b962a7cb788fad00a2eb689a5b43393a24128b18412a76",
+      "seqno": 5056448
+    },
+    "service": {
+      "entropy": "2tphdGiQtY+gF0PCWJ8EN4X+",
+      "hostname": "feliperamos.me",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.0.0"
+  },
+  "ctime": 1553884308,
+  "expire_in": 504576000,
+  "prev": "d5772a5b56b7279234618c05fb3a3bedf629d21543977915a918ed6fbebcf5a7",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgREpvtlfsn35bEE5/nMdMP7F/a4LRYav07Z/+KOic/GAKp3BheWxvYWTESpcCF8Qg1XcqW1a3J5I0YYwF+zo77fYp0hVDl3kVqRjtb7689afEIE2dDUUl6K0fPnvF9YyuA8o24homEiUAncvBe4E22iLzAgHCo3NpZ8RAbE01lIcZtOhUbAxq05/PrKHMdU/fmrnGurn9FQy+jC7BC2///uI4UewgBfpgkaOLJQTWmUZcAIy809H9x0ioDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJfbtQ/ClG2c4BJ0wG+Edp80Xo5c3HWKwPxHvYkQD8gxo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/feraio
+
+==================================================================
