@@ -4,7 +4,7 @@ https://keybase.io/feraio
 
 I hereby claim:
 
-  * I am an admin of http://feliperamos.me
+  * I am an admin of https://feliperamos.me
   * I am feraio (https://keybase.io/feraio) on keybase.
   * I have a public key ASBESm-2V-yfflsQTn-cx0w_sX9rgtFhq_Ttn_4o6Jz8YAo
 
@@ -28,7 +28,7 @@ To do so, I am signing this object:
     "service": {
       "entropy": "2tphdGiQtY+gF0PCWJ8EN4X+",
       "hostname": "feliperamos.me",
-      "protocol": "http:"
+      "protocol": "https:"
     },
     "type": "web_service_binding",
     "version": 2
